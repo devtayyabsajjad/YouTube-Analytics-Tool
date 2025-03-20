@@ -1,5 +1,5 @@
 // script.js
-const API_KEY = 'API_KEY'; // Replace with your actual API key
+const API_KEY = 'YOUR_API_KEY'; // Replace with your actual API key
 
 function fetchChannelData() {
     const query = document.getElementById('channelSearch').value;

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Analytics Tool</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">XEE-BLADE</div>
+        <nav>
+            <a href="#">TikTok</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <h1>YouTube Analytics</h1>
+            <p>Get detailed insights into any YouTube channel.</p>
+            <div class="search-container">
+                <input type="text" id="channelSearch" placeholder="Enter YouTube Channel Name or URL">
+                <button onclick="fetchChannelData()">See Analytics</button>
+            </div>
+        </section>
+        <section id="analyticsDisplay" class="analytics-grid"></section>
+        <section id="charts" class="charts-grid"></section>
+    </main>
+    <footer>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Contact</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

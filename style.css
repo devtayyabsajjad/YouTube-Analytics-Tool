@@ -1,0 +1,90 @@
+/* styles.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f0f23;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1a1a2e;
+}
+
+.logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+}
+
+nav a {
+    color: #00ffcc;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.banner {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00ffcc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.analytics-grid, .charts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.analytics-block {
+    background-color: #1a1a2e;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.analytics-block:hover {
+    transform: scale(1.05);
+}
+
+.revenue-block {
+    background-color: #ff4d4d; /* Futuristic red */
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    grid-column: 1 / -1; /* Span across all columns */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a2e;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #00ffcc;
+    text-decoration: none;
+    margin: 0 10px;
+}
